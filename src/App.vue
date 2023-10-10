@@ -3,16 +3,17 @@
     oi gente...tudo bem?
     <caixa />
     <caixa />
-    <caixa />
+    <outro />
     <caixa />
   </div>
 </template>
 
 <script>
 import caixa from "./caixa.vue"
+import outro from "./outro.vue"
 
 export default {
-  components: { caixa }
+  components: { caixa, outro }
 }
 </script>
 <style lang="">
